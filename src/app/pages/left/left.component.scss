@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  background-color: aquamarine;
+  padding: 1rem;
+}
+
+main {
+  height: calc(100vh - 32px);
+  background-color: bisque;
+
+  div {
+    padding: 1rem;
+    display: flex;
+  }
+}
